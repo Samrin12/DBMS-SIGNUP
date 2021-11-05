@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.log-in{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.log-in .form-page{
+    background-color: #a0b2d594;
+    margin-top: 9% !important;
+    border-radius: 8px;
+    margin-right: 90px !important;
+}
+.log-in .form-page h1{
+    
+color: #1C83CD;
+    
+margin: 25px auto 10px;
+    
+font-size: 36px;
+    
+font-weight: 700;
+    
+text-shadow: 2px 2px #e3d8d8;
+}
+.log-in .form-page form{
+    
+padding-left: 20px;
+    
+padding-right: 20px;
+    
+margin-bottom: 20px;
+}
+.log-in .form-page form input{
+    
+margin-bottom: 15px;
+}
+.log-in .form-page input::placeholder{
+    
+}
+.log-in .form-page input[type=submit]{
+    
+margin-bottom: 35px;
+    
+margin-top: 7px;
+    
+padding: 6px 32px;
+    
+color: #fff;
+    
+border: 1px solid #2A8BD9;
+    
+background: #2A8BD9;
+    
+border-radius: 20px;
+    
+font-weight: bold;
+transition: .4s all ease-in-out;
+}
+.log-in .form-page input[type=submit]:hover{
+    background:#195485;
+    border: 1px solid #195485 ;
+    color:#fff ;
+}
